@@ -1,8 +1,9 @@
-package zw.co.afrosoft;
+package zw.co.afrosoft.example;
 
 public class Main {
 
     public static void main(String[] args) {
+
 
         MyLambda firstLine = () -> System.out.println("lambda expression");
 
