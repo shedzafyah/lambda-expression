@@ -4,19 +4,31 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //() -> System.out.println("lambda expression");
+        MyLambda firstLine = () -> System.out.println("lambda expression");
 
-        /*
-            addFunction=(int a, int b) -> a+b;
 
-            safeDivision=(int a, int b) -> {
+        MyAddLambda addFunction=(int a, int b) -> a+b;
+
+
+          MyAddLambda  safeDivision=(int a, int b) -> {
                 if(b==0) return 0;
-            }
+                return a/b;
+            };
 
-            doubleFunction = (int a) -> a*2;
+        //    doubleFunction = (int a) -> a*2;
 
-            stringLengthCountFunction = (String s) -> s.length();
+         //   stringLengthCountFunction = (String s) -> s.length();
 
-         */
+
     }
+
+}
+
+interface MyLambda{
+    void foo();
+
+}
+
+interface  MyAddLambda{
+    int add(int a, int b);
 }
