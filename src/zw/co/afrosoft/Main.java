@@ -13,7 +13,9 @@ public class Main {
                 if(b==0) return 0;
             }
 
-            doubleFunction= (int a) -> a*2;
+            doubleFunction = (int a) -> a*2;
+
+            stringLengthCountFunction = (String s) -> s.length();
 
          */
     }
