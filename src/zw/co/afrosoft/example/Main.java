@@ -25,11 +25,3 @@ public class Main {
 
 }
 
-interface MyLambda{
-    void foo();
-
-}
-
-interface  MyAddLambda{
-    int add(int a, int b);
-}
